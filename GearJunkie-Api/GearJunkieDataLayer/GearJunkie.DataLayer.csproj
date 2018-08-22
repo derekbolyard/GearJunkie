@@ -2,13 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-    <RootNamespace>GearJunkie.BusinessLayer</RootNamespace>
+    <RootNamespace>GearJunkie.DataLayer</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\BusinessObjects\BusinessObjects.csproj" />
     <ProjectReference Include="..\Common\Common.csproj" />
-    <ProjectReference Include="..\GearJunkieDataLayer\GearJunkie.DataLayer.csproj" />
   </ItemGroup>
 
 </Project>

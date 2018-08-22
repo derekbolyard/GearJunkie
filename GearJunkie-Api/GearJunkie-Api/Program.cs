@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 
-namespace GearJunkie_Api
+namespace GearJunkie.Api
 {
     public class Program
     {

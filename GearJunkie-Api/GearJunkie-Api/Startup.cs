@@ -8,7 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-namespace GearJunkie_Api
+namespace GearJunkie.Api
 {
     public class Startup
     {

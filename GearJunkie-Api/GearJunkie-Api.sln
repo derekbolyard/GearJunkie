@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GearJunkie-Api", "GearJunkie-Api\GearJunkie-Api.csproj", "{6BB52FE9-94E6-4803-B81D-3DD543F74C47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GearJunkie.Api", "GearJunkie-Api\GearJunkie.Api.csproj", "{6BB52FE9-94E6-4803-B81D-3DD543F74C47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GearJunkie.BusinessLayer", "GearJunkie.BusinessLayer\GearJunkie.BusinessLayer.csproj", "{A467DB79-FA1B-4DBD-A4E3-025F3EEF2F4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GearJunkie.BusinessLayer", "GearJunkie.BusinessLayer\GearJunkie.BusinessLayer.csproj", "{A467DB79-FA1B-4DBD-A4E3-025F3EEF2F4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GearJunkieDataLayer", "GearJunkieDataLayer\GearJunkieDataLayer.csproj", "{9757B159-CBDD-4712-9A25-6AD439F2E973}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GearJunkie.DataLayer", "GearJunkieDataLayer\GearJunkie.DataLayer.csproj", "{9757B159-CBDD-4712-9A25-6AD439F2E973}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessObjects", "BusinessObjects\BusinessObjects.csproj", "{4AF76217-1FEE-4E9F-9C31-9F7A728215E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessObjects", "BusinessObjects\BusinessObjects.csproj", "{4AF76217-1FEE-4E9F-9C31-9F7A728215E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{270250CE-42C6-423F-A516-91A83781C6CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{270250CE-42C6-423F-A516-91A83781C6CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
