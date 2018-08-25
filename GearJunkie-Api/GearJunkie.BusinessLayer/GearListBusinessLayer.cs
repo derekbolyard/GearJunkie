@@ -17,9 +17,11 @@ namespace GearJunkie.BusinessLayer
         {
             this.gearListDataLayer = gearListDataLayer;
         }
-        public Task<OperationResultOfT<List<GearList>>> GetGearListsByUserId(long userId)
+        public async Task<OperationResultOfT<List<GearList>>> GetGearListsByUserId(long userId)
         {
-            throw new NotImplementedException();
+            var result = await this.gearListDataLayer.GetGearListsByUserId(userId);
+
+            return result;
         }
     }
 }

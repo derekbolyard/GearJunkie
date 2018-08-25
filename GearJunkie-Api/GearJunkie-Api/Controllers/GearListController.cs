@@ -17,8 +17,14 @@ namespace GearJunkie.Api.Controllers
             this.gearListBusinessLayer = gearListBusinessLayer;
         }
 
+        [HttpGet]
+        public string Get()
+        {
+            return "Hi";
+        }
 
-        [HttpGet("{userId:int}")]
+        [HttpGet]
+        [Route("{userId}")]
         public async Task<IActionResult> GetGearListsByUserId(long userId)
         {
             var result = await this.gearListBusinessLayer.GetGearListsByUserId(userId);

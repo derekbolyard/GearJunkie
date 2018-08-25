@@ -10,9 +10,14 @@ namespace GearJunkie.DataLayer
 {
     public class GearListDataLayer : IGearListDataLayer
     {
-        public Task<OperationResultOfT<List<GearList>>> GetGearListsByUserId(long userId)
+        public async Task<OperationResultOfT<List<GearList>>> GetGearListsByUserId(long userId)
         {
-            throw new NotImplementedException();
+            if(userId == 1)
+            {
+                return  new OperationResultOfT<List<GearList>> { Messages = new List<string> { "Your user id is 1"}};
+            }
+
+            return null;
         }
     }
 }
