@@ -15,6 +15,7 @@ namespace GearJunkie.DataLayer
             if(userId == 1)
             {
                 return  new OperationResultOfT<List<GearList>> { Messages = new List<string> { "Your user id is 1"}};
+                var something = "idk";
             }
 
             return null;
