@@ -1,0 +1,10 @@
+﻿{
+  "modules": [
+    {
+      "type": "GearJunkie.BusinessLayer.Config.AutofacConfig, GearJunkie.BusinessLayer"
+    },
+    {
+      "type": "GearJunkie.DataLayer.Config.AutofacConfig, GearJunkie.DataLayer"
+    }
+  ]
+}
