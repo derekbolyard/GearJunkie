@@ -17,6 +17,7 @@ namespace GearJunkie.BusinessLayer
         {
             this.gearListDataLayer = gearListDataLayer;
         }
+
         public async Task<OperationResultOfT<List<GearList>>> GetGearListsByUserId(long userId)
         {
             var result = await this.gearListDataLayer.GetGearListsByUserId(userId);

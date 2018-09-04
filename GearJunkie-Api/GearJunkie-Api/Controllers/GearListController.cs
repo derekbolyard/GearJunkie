@@ -1,4 +1,5 @@
-﻿using GearJunkie.BusinessLayer.Interfaces;
+﻿using BusinessObjects;
+using GearJunkie.BusinessLayer.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -18,9 +19,11 @@ namespace GearJunkie.Api.Controllers
         }
 
         [HttpGet]
-        public string Get()
+        public async Task<IActionResult> Get()
         {
-            return "Hi";
+            var result = await this.gearListBusinessLayer.GetGearListsByUserId(1);
+
+            return this.Ok(result.Entity);
         }
 
         [HttpGet]
